@@ -25,7 +25,7 @@ const sisters: Sister[] = [
     name: 'Shizu Shirokane',
     nickname: '静白金',
     quote: 'Shizu bel',
-    bio: '1st brother, hes a 4k mania player at 9th dan, average rice farmer but doesnt actually play the game that much, touched std a bit and thats it',
+    bio: ' 1st brother, he`s a 4k mania player at 9th dan, average rice farmer but doesn`t actually play the game that much, touched std a bit and that`s it.',
     color: '#8dc8ed',
     accent: '#d8efff',
     avatar: '/src/assets/shizu.png'
@@ -35,7 +35,7 @@ const sisters: Sister[] = [
     name: 'Mita Shirokane',
     nickname: 'Мита',
     quote: 'Mita ep pe et',
-    bio: '2nd sister, shes a decent standard player, also really good at FPS games, joined after Shizu Shirokane',
+    bio: '2nd sister, she`s a decent standard player, also really good at FPS games, joined after Shizu Shirokane.',
     color: '#ef918c',
     accent: '#ffe0dd',
     avatar: '/src/assets/mita.jpg'
@@ -45,7 +45,7 @@ const sisters: Sister[] = [
     name: 'Yuuki Shirokane',
     nickname: '勇気白金',
     quote: 'chan bo may di',
-    bio: '3rd sister, slightly worse at std than Mita but still improving, played a little bit of other gamemodes, joined after Mita Shirokane',
+    bio: 'The 3rd sister, slightly worse at std than Mita but still improving, played a little bit of other gamemodes, joined after Mita Shirokane.',
     color: '#8dc8ed',
     accent: '#d8efff',
     avatar: '/src/assets/yuuki.jpg'
@@ -55,7 +55,7 @@ const sisters: Sister[] = [
     name: 'Fuyu Shirokane',
     nickname: '冬白金',
     quote: 'con cao beo',
-    bio: '4th brother, the absolute strongest mania player of the family with over 10kpp at both 4 and 7k. Joined after Yuuki Shirokane.',
+    bio:'The 4th brother, the absolute strongest mania player of the family with over 10kpp at both 4 and 7k. Joined after Yuuki Shirokane.',
     color: '#eebf73',
     accent: '#fff0ca',
     avatar: '/src/assets/fuyu.png'
@@ -65,7 +65,7 @@ const sisters: Sister[] = [
     name: 'Ayoko Shirokane',
     nickname: '吾夜子白金',
     quote: 'niggger',
-    bio: '5th sister, std main with a little bit of mania. Join after Fuyu Shirokane (wtf she won 1 year os)',
+    bio:'The 5th sister, std main with a little bit of mania. Join after Fuyu Shirokane (wtf she won 1 year os)',
     color: '#b7a7e8',
     accent: '#e9e3ff',
     avatar: '/src/assets/ayoko.png'
@@ -75,7 +75,7 @@ const sisters: Sister[] = [
     name: 'Sopia Shirokane',
     nickname: 'ソピア白金',
     quote: 'fembi giong hay',
-    bio: '6th sister. The best std player in the family, spent some time playing mania and ctb too, peaked a while ago and slowly declining right now tho, joined after Ayoko Shirokane',
+    bio:' The 6th sister. The best std player in the family, spent some time playing mania and ctb too, peaked a while ago and slowly declining right now tho, joined after Ayoko Shirokane.',
     color: '#681993',
     accent: '#e5dffb',
     avatar: '/src/assets/sopia.png'
@@ -85,7 +85,7 @@ const sisters: Sister[] = [
     name: 'Kuru Shirokane',
     nickname: 'クル白金',
     quote: 'anh nao day hoc IT',
-    bio: '7th brother. A taiko main with over 8kpp, also playing tournaments. Decent skillset spread over other gamemodes too. Joined after Sopia Shirokane.',
+    bio:'The 7th brother. A taiko main with over 8kpp, also playing tournaments. Decent skillset spread over other gamemodes too. Joined after Sopia Shirokane.',
     color: '#9589cf',
     accent: '#e5dffb',
     avatar: '/src/assets/kuru.png'
@@ -296,7 +296,7 @@ function App() {
                 <span className="sister-card__number">{String(index + 1).padStart(2, '0')}</span>
                 <Avatar sister={sister} large />
                 <span className="sister-card__name">{sister.name}</span>
-                <span className="sister-card__hint">Meet her <Icon name="arrow" /></span>
+                <span className="sister-card__hint">Meet <Icon name="arrow" /></span>
               </button>
             </Reveal>
           ))}
@@ -308,18 +308,12 @@ function App() {
             <h2>There are more stories waiting</h2>
           </div>
           <div className="page-links">
-            <a href="#memories"><span>01</span><b>Family memories</b><Icon name="arrow" /></a>
-            <a href="#letters"><span>02</span><b>Letters & notes</b><Icon name="arrow" /></a>
-            <a href="#about"><span>03</span><b>Our little world</b><Icon name="arrow" /></a>
+            <a href="#osu"><span>01</span><b>osu! team</b><Icon name="arrow" /></a>
+            <a href="#letters"><span>02</span><b>Facebook Page</b><Icon name="arrow" /></a>
+            <a href="#about"><span>03</span><b>Discord</b><Icon name="arrow" /></a>
           </div>
         </Reveal>
       </section>
-
-      <footer>
-        <div className="footer__mark">SF</div>
-        <p>Made with care by the Shirokane family</p>
-        <a href="#family">Back to the sisters</a>
-      </footer>
 
       {selected && (
         <div className="modal-backdrop" role="presentation" onMouseDown={() => setSelected(null)}>
@@ -349,9 +343,8 @@ function App() {
                 <div><dt>Call me</dt><dd>{selected.nickname}</dd></div>
               </dl>
               <div className="social-links">
-                <a href="#instagram">Instagram <Icon name="link" /></a>
-                <a href="#twitter">X / Twitter <Icon name="link" /></a>
-                <a href="#youtube">YouTube <Icon name="link" /></a>
+                <a  href="https://osu.ppy.sh/#id"> osu! <Icon name="link" /></a>
+                <a href="https://discord.com/#id_discord"> Discord <Icon name="link" /></a>
               </div>
             </div>
           </section>
