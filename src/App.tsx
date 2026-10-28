@@ -25,7 +25,7 @@ const sisters: Sister[] = [
     name: 'Shizu Shirokane',
     nickname: '静白金',
     quote: 'Shizu bel',
-    bio: '1st brother, he is 4k mania player at 9th dan, average rice farmer but usually quit game(no any modes)',
+    bio: '1st brother, hes a 4k mania player at 9th dan, average rice farmer but doesnt actually play the game that much, touched std a bit and thats it',
     color: '#8dc8ed',
     accent: '#d8efff',
     avatar: '/src/assets/shizu.png'
@@ -35,7 +35,7 @@ const sisters: Sister[] = [
     name: 'Mita Shirokane',
     nickname: 'Мита',
     quote: 'Mita ep pe et',
-    bio: '2nd sister, she is standard player and join after Shizu Shirokane, WHY every std player has so much playtime? Explain for me! :sob:',
+    bio: '2nd sister, shes a decent standard player, also really good at FPS games, joined after Shizu Shirokane',
     color: '#ef918c',
     accent: '#ffe0dd',
     avatar: '/src/assets/mita.jpg'
@@ -45,7 +45,7 @@ const sisters: Sister[] = [
     name: 'Yuuki Shirokane',
     nickname: '勇気白金',
     quote: 'chan bo may di',
-    bio: '3th sister, she can play std, taiko and mania 4k, skill stat is normal at these modes, maybe she is most powerful player of Shirokane`s sister in the future, join after Mita Shirokane',
+    bio: '3rd sister, slightly worse at std than Mita but still improving, played a little bit of other gamemodes, joined after Mita Shirokane',
     color: '#8dc8ed',
     accent: '#d8efff',
     avatar: '/src/assets/yuuki.jpg'
@@ -55,7 +55,7 @@ const sisters: Sister[] = [
     name: 'Fuyu Shirokane',
     nickname: '冬白金',
     quote: 'con cao beo',
-    bio:'4th brother, he`s strongest mania player of Shirokane`s sister who got >10kpp at both 4 and 7k, help me why he can cook this modes? Join after Yuuki Shirokane.',
+    bio: '4th brother, the absolute strongest mania player of the family with over 10kpp at both 4 and 7k. Joined after Yuuki Shirokane.',
     color: '#eebf73',
     accent: '#fff0ca',
     avatar: '/src/assets/fuyu.png'
@@ -65,7 +65,7 @@ const sisters: Sister[] = [
     name: 'Ayoko Shirokane',
     nickname: '吾夜子白金',
     quote: 'niggger',
-    bio:'5th sister, she`s the one of standard player of Shirokane`s Sister. Join after Fuyu Shirokane',
+    bio: '5th sister, std main with a little bit of mania. Join after Fuyu Shirokane (wtf she won 1 year os)',
     color: '#b7a7e8',
     accent: '#e9e3ff',
     avatar: '/src/assets/ayoko.png'
@@ -75,7 +75,7 @@ const sisters: Sister[] = [
     name: 'Sopia Shirokane',
     nickname: 'ソピア白金',
     quote: 'fembi giong hay',
-    bio:' 6th sister. GOAT STD PLAYER OF OUR FAMILY UOWHHHHH. Yea she`s so peak, 5 digit at std actually peak as heck, i cant :sob:, join after Ayoko Shirokane',
+    bio: '6th sister. The best std player in the family, spent some time playing mania and ctb too, peaked a while ago and slowly declining right now tho, joined after Ayoko Shirokane',
     color: '#681993',
     accent: '#e5dffb',
     avatar: '/src/assets/sopia.png'
@@ -85,7 +85,7 @@ const sisters: Sister[] = [
     name: 'Kuru Shirokane',
     nickname: 'クル白金',
     quote: 'anh nao day hoc IT',
-    bio:' 7th brother. Main taiko and now is the best taiko player for tournament. He still play multimode right now and goat standard too. Join after Sopia Shirokane.',
+    bio: '7th brother. A taiko main with over 8kpp, also playing tournaments. Decent skillset spread over other gamemodes too. Joined after Sopia Shirokane.',
     color: '#9589cf',
     accent: '#e5dffb',
     avatar: '/src/assets/kuru.png'
@@ -95,7 +95,7 @@ const sisters: Sister[] = [
     name: 'Ahiru Shirokane',
     nickname: 'アヒル白金',
     quote: 'lorem ipsum dolor sit amet',
-    bio:'8th brother. A normal newbie standard player and he want to improve himself faster. Join after Kuru Shirokane.',
+    bio: '8th brother. A std player (yes thats it about him we dont even see him that often actually). Joined after Kuru Shirokane.',
     color: '#79b8e3',
     accent: '#dceeff',
     avatar: '/src/assets/ahiru.png'
@@ -105,7 +105,7 @@ const sisters: Sister[] = [
     name: 'Huna Shirokane',
     nickname: 'フナ白金',
     quote: 'lorem ipsum dolor sit amet',
-    bio:'9th sister. Another std player main but she can play some ctb and mania too. Join after Ahiru Shirokane.',
+    bio: '9th sister. Std main, with a little bit of mania and ctb. Joined after Ahiru Shirokane.',
     color: '#b7a7e8',
     accent: '#e9e3ff',
     avatar: '/src/assets/huna.png'
@@ -115,7 +115,7 @@ const sisters: Sister[] = [
     name: 'Mofu Shirokane',
     nickname: 'モフ白金',
     quote: 'sinh vien bach khoa',
-    bio:'10th sister. Taiko main player with true speed tech skill. She played another mode but not focus on that. Join after Huna Shirokane.',
+    bio: '10th sister. Strong taiko main, also has around 1kpp on other modes (she beat an insane demon in gd and is going for her first extreme in gd btw). Joined after Huna Shirokane.',
     color: '#ffd9e5',
     accent: '#fff0ca',
     avatar: '/src/assets/mofu.png'
@@ -125,7 +125,7 @@ const sisters: Sister[] = [
     name: 'Izumi Shirokane',
     nickname: '泉水白金',
     quote: 'lorem ipsum dolor sit amet',
-    bio:' 11th sister. Another 4K mania masher. Main rice and jack is best skill, join after Mofu Shirokane.',
+    bio: '11th sister. Another 4K mania masher. Main rice and jack is best skill, join after Mofu Shirokane.',
     color: '#eebf73',
     accent: '#fff0ca',
     avatar: '/src/assets/izumi.png'
@@ -135,7 +135,7 @@ const sisters: Sister[] = [
     name: 'Izuna Shirokane',
     nickname: '泉那白金',
     quote: 'shizu la ca cuoc doi',
-    bio:' 12th sister. Best CtB player of Shirokane Family and the last one who still play this mode. Join after Izumi Shirokane.',
+    bio: '11th sister. Best ctb player of the family (almost 3 digits) with some mania. Joined after Mofu Shirokane.',
     color: '#72bda5',
     accent: '#d9f3eb',
     avatar: '/src/assets/izuna.png'
@@ -145,7 +145,7 @@ const sisters: Sister[] = [
     name: 'Sora Shirokane',
     nickname: '空白金',
     quote: 'random kid',
-    bio:'13th sister.',
+    bio: '12th sister. Decent std player, improving in mania. Joined after Izuna Shirokane.',
     color: '#7fc7d8',
     accent: '#d8f4fa',
     avatar: '/src/assets/sora.png'
@@ -360,5 +360,6 @@ function App() {
     </main>
   )
 }
+// chit yuuki bel
 
 export default App
